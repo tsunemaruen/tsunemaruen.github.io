@@ -1,0 +1,54 @@
+/* line 4, ../../_compass/style.scss */
+h1, h2, h3, h4, h6, h5, h6 {
+  font-family: "myriad-pro", "source-han-sans-japanese", sans-serif;
+}
+
+/* line 8, ../../_compass/style.scss */
+header {
+  padding-top: 5em;
+  text-align: center;
+}
+
+/* line 13, ../../_compass/style.scss */
+main {
+  padding-top: 5em;
+  text-align: center;
+}
+
+/* line 18, ../../_compass/style.scss */
+.header__title {
+  margin: 0;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 1;
+}
+
+/* line 25, ../../_compass/style.scss */
+.header__description {
+  margin: 0;
+  padding-top: 0.3em;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1;
+  font-family: "myriad-pro", "source-han-sans-japanese", sans-serif;
+}
+
+/* line 34, ../../_compass/style.scss */
+.main__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1;
+}
+
+/* line 41, ../../_compass/style.scss */
+.main__description {
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 300px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
+  font-family: "a-otf-gothic-bbb-pr6n", sans-serif;
+}
