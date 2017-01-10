@@ -1,53 +1,68 @@
-/* line 4, ../../_compass/style.scss */
+/* line 9, ../../_compass/style.scss */
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 960px) {
+  /* line 14, ../../_compass/style.scss */
+  html {
+    font-size: 80%;
+  }
+}
+/* line 19, ../../_compass/style.scss */
 h1, h2, h3, h4, h6, h5, h6 {
   font-family: "myriad-pro", "source-han-sans-japanese", sans-serif;
 }
 
-/* line 8, ../../_compass/style.scss */
+/* line 23, ../../_compass/style.scss */
 header {
   padding-top: 5em;
   text-align: center;
 }
 
-/* line 13, ../../_compass/style.scss */
+/* line 28, ../../_compass/style.scss */
 main {
   padding-top: 5em;
   text-align: center;
 }
 
-/* line 18, ../../_compass/style.scss */
+/* line 33, ../../_compass/style.scss */
 .header__title {
   margin: 0;
   font-weight: 200;
   font-size: 50px;
+  font-size: 5rem;
   line-height: 1;
 }
 
-/* line 25, ../../_compass/style.scss */
+/* line 40, ../../_compass/style.scss */
 .header__description {
   margin: 0;
   padding-top: 0.3em;
   font-weight: 300;
   font-size: 30px;
+  font-size: 3rem;
   line-height: 1;
   font-family: "myriad-pro", "source-han-sans-japanese", sans-serif;
 }
 
-/* line 34, ../../_compass/style.scss */
+/* line 49, ../../_compass/style.scss */
 .main__title {
   margin: 0;
   font-weight: 500;
   font-size: 30px;
+  font-size: 3rem;
   line-height: 1;
 }
 
-/* line 41, ../../_compass/style.scss */
+/* line 56, ../../_compass/style.scss */
 .main__description {
   margin: 0 auto;
   padding-top: 1em;
-  width: 300px;
+  width: 21em;
   font-weight: 300;
   font-size: 14px;
+  font-size: 1.4rem;
   text-align: left;
   line-height: 1.5;
   font-family: "a-otf-gothic-bbb-pr6n", sans-serif;
