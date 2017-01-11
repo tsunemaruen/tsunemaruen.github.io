@@ -28,25 +28,32 @@ main {
 
 /* line 33, ../../_compass/style.scss */
 .header__title {
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  display: block;
+  width: 6em;
   font-weight: 200;
   font-size: 50px;
   font-size: 5rem;
   line-height: 1;
+  color: white;
+  background-color: #53a985;
 }
 
-/* line 40, ../../_compass/style.scss */
+/* line 46, ../../_compass/style.scss */
 .header__description {
   margin: 0;
   padding-top: 0.3em;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   font-size: 3rem;
   line-height: 1;
   font-family: "myriad-pro", "source-han-sans-japanese", sans-serif;
+  color: #53a985;
 }
 
-/* line 49, ../../_compass/style.scss */
+/* line 56, ../../_compass/style.scss */
 .main__title {
   margin: 0;
   font-weight: 500;
@@ -55,11 +62,11 @@ main {
   line-height: 1;
 }
 
-/* line 56, ../../_compass/style.scss */
+/* line 63, ../../_compass/style.scss */
 .main__description {
   margin: 0 auto;
   padding-top: 2em;
-  width: 21em;
+  width: 21.1em;
   font-weight: 300;
   font-size: 14px;
   font-size: 1.4rem;
